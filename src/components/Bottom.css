@@ -1,0 +1,29 @@
+.Row2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 812px) {
+    .Row2 {
+        flex-direction: column;
+    }
+
+    .BasicBox{
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .ProfessionalBox{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .MasterBox{
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+  }

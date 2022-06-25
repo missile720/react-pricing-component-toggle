@@ -1,0 +1,44 @@
+.ProfessionalBox{
+    background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+.ProfessionalCost{
+    font-size: 60px;
+}
+
+.DollarSign{
+    display: flex;
+    align-items: center;
+}
+
+.Line{
+    border-top: 1px solid white;
+    border-bottom: none;
+    opacity: .25;
+}
+
+.ButtonCenter{
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+    color: black;
+    mix-blend-mode: lighten;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ButtonCenter:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
